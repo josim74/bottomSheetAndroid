@@ -1,4 +1,6 @@
 
+        View bottomSheet = findViewById(R.id.framelayout_bottom_sheet);
+        
         final View bottomSheetLayout = getLayoutInflater().inflate(R.layout.bottom_sheet_dialog, null);
         mBottomSheetDialog = new BottomSheetDialog(PostAdActivity.this);
         mBottomSheetDialog.setContentView(bottomSheetLayout);
